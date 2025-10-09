@@ -1,4 +1,26 @@
-function Drawer({ onClose, onRemove, items = [] }) {
+function Drawer({
+  onClose,
+  onRemove,
+  items = [
+    [
+      {
+        title: "Мужские Кроссовки Nike Blazer Mid Suede",
+        price: 12999,
+        imageUrl: "img/sneakers/1.jpg",
+      },
+      {
+        title: "Кроссовки Puma X Aka Boku Future Rider",
+        price: 8999,
+        imageUrl: "img/sneakers/4.jpg",
+      },
+      {
+        title: "Мужские Кроссовки Nike Kyrie 7",
+        price: 11299,
+        imageUrl: "img/sneakers/6.jpg",
+      },
+    ],
+  ],
+}) {
   return (
     <div className="overlay">
       <div className="drawer">
