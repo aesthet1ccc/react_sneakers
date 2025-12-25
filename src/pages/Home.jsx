@@ -11,7 +11,6 @@ function Home(
     <div className="content">
       <div className="d-flex align-center mb-40 justify-between">
         <h1 className="heading">
-          {" "}
           {searchValue
             ? `Поиск по запросу: : "${searchValue}"`
             : "Все кроссовки"}

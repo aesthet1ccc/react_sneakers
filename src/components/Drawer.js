@@ -36,7 +36,6 @@ function Drawer({
         {items.length > 0 ? (
           <div className="items">
             <div>
-              {" "}
               {items.map((obj) => (
                 <div className="cartItem d-flex align-center mb-20">
                   <div

@@ -16,7 +16,7 @@ function Header(props) {
       <ul className="d-flex">
         <li onClick={props.onClickCart} className="mr-30 cu-p">
           <img width={18} height={18} src="/img/cart.svg" alt="Корзина" />
-          <span>1205 руб.</span>
+          <span>0 руб.</span>
         </li>
         <Link to="/favorites">
           <li className="cu-p">
